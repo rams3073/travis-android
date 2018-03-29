@@ -6,6 +6,10 @@ branches:
   only:
     - master
     - dev
+    
+notifications:
+    email:
+        - ramachandar.sonte@kantar.com
 
 android:
   components:
